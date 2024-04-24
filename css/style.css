@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Carattere', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Codystar', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: #001e4d;
+}
+
+.quiz-container {
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+
+    h1 {
+        font-size: 25px;
+        color: #001e4d;
+        font-weight: bottom;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #333;
+        /* as an underline */
+    }
+
+    .quiz {
+        padding: 20px 0;
+
+        h2 {
+            font-size: 20px;
+            color: #001e4d;
+        }
+
+        .btn {
+            background-color: white;
+            color: #222;
+            width: 100%;
+            text-align: left;
+            padding: 13px;
+            margin: 10px 0px;
+            border-radius: 10px;
+            border: 1px solid #222;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover:not(.disabled) {
+                background-color: #222;
+                color: white;
+            }
+        }
+        .disabled{
+            cursor: not-allowed;
+        }
+                .correct {
+                    background-color: #9aeabc;
+                }
+        
+                .incorrect {
+                    background-color: #ff9393;
+                }
+
+        #next {
+            background-color: #001e4d;
+            color: #fff;
+            width: 150px;
+            border: 0;
+            padding: 10px;
+            border-radius: 3px;
+            margin: 10px auto 0;
+            cursor: pointer;
+            display: none;
+
+}
+
+    }
+}
+
